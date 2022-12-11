@@ -28,7 +28,7 @@ export const Column = styled.div`
 export const Row = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     margin-top: 20px;
 `
@@ -38,7 +38,7 @@ export const Title = styled.h2`
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
-    width: 320px;
+    width: 388px;
     margin-bottom: 20px;
     line-height: 44px;
 
@@ -48,28 +48,28 @@ export const TitleLogin = styled.p`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 1.8rem;
     margin-bottom: 20px;
-    line-height: 44px;
+    line-height: 43.58px;
 `
 
 export const SubtitleLogin = styled.p`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 17px;
     margin-bottom: 35px;
     line-height: 25px;
 ` 
 
-export const EsqueciText = styled.p`
+export const JaTenho = styled.p`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
 
-    color: #E5E844;
+    color: #FFFFFF;
 ` 
 
 export const CriarText = styled.p`
@@ -78,11 +78,30 @@ export const CriarText = styled.p`
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
+    align-items: flex-start;
+    margin: 5px;
 
-    color: #E23DD7;
+    color: #23DD7A;
 
     &:hover {
-        opacity: 0.6;
-        cursor: pointer;
-    }
+            opacity: 0.6;
+            cursor: pointer;
+        }
+    
 ` 
+
+export const Icon = styled.div`
+    color: #8647AD;
+    
+`
+
+export const TextBottom = styled.p`
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    line-height: 25px;
+
+`
